@@ -1,7 +1,9 @@
 /* Css général */
-.container{
+.container {
     width: 540px;
+    margin: 0 auto;
 }
+
 a {
     text-decoration: none;
     color: #fff;
@@ -10,17 +12,24 @@ a {
 html {
     font-size: 16px;
 }
-/* header */
-.identité{
+
+/* Header */
+.identite {
     text-align: center;
+    padding-bottom: 5px;
 }
+
+.logo {
+    margin: 10px 0;
+}
+
 .logo img {
     width: 150px;
     height: 60px;
 }
 
-.slogan{
-    font-size: 1.2em;
+.slogan {
+    font-size: 1.2rem;
     color: #666699;
 }
 
@@ -28,8 +37,8 @@ nav {
     background: #665599;
 }
 
-.main-menu{
-    height: 190px; 
+.main-menu {
+    
 }
 
 .main-menu ul li {
@@ -42,5 +51,5 @@ nav {
 
 .main-menu ul li a {
     color: #ccc;
-    font-size: 1.3em;
+    font-size: 1.3rem;
 }
